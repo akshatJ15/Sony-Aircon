@@ -79,124 +79,137 @@ const Projects = () => {
       id: 1,
       title: "Amar Care Mathura",
       category: "healthcare",
-      image: "/Projects/Amar Care Mathura.png",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      image: "/Projects/Amar-Care-Mathura.png",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "Mathura, Uttar Pradesh"
+      location: "Mathura, Uttar Pradesh",
     },
     {
       id: 2,
       title: "Apollo Clinic Agra",
       category: "healthcare",
-      image: "/Projects/Apollo Clininc Agra.png",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      image: "/Projects/Apollo-Clininc-Agra.png",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "Agra, Uttar Pradesh"
+      location: "Agra, Uttar Pradesh",
     },
     {
       id: 3,
       title: "BestWestern Mathura",
       category: "hospitality",
-      image: "/Projects/BestWestern Mathura.png",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      image: "/Projects/BestWestern-Mathura.png",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "Mathura, Uttar Pradesh"
+      location: "Mathura, Uttar Pradesh",
     },
     {
       id: 4,
       title: "City Hospital",
       category: "healthcare",
-      image: "/Projects/City Hospital.png",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      image: "/Projects/City-Hospital.png",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "TBD"
+      location: "TBD",
     },
     {
       id: 5,
       title: "GD Goenka Agra",
       category: "educational",
-      image: "/Projects/GD Goenka Agra.png",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      image: "/Projects/GD-Goenka-Agra.png",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "Agra, Uttar Pradesh"
+      location: "Agra, Uttar Pradesh",
     },
     {
       id: 6,
       title: "GD Goenka Gwalior",
       category: "educational",
-      image: "/Projects/GD Goenka Gwalior.png",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      image: "/Projects/GD-Goenka-Gwalior.png",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "Gwalior, Madhya Pradesh"
+      location: "Gwalior, Madhya Pradesh",
     },
     {
       id: 7,
       title: "GD Goenka Luckhnow",
       category: "educational",
-      image: "/Projects/GD Goenka Lucknow.png",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      image: "/Projects/GD-Goenka-Luckhnow.png",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "Lucknow, Uttar Pradesh"
+      location: "Lucknow, Uttar Pradesh",
     },
     {
       id: 8,
       title: "Gold Cinema",
       category: "entertainment",
-      image: "/Projects/Gold Cinema.jpg",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      image: "/Projects/Gold-Cinema.jpg",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "TBD"
+      location: "TBD",
     },
     {
       id: 9,
       title: "Gurudwara Guru Ka Taal Agra",
       category: "commercial",
       image: "/Projects/Gurudwara-Guru-Ka-Taal-Agra.jpg",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "Agra, Uttar Pradesh"
+      location: "Agra, Uttar Pradesh",
     },
     {
       id: 10,
       title: "Haldiram Tajganj",
       category: "commercial",
-      image: "/Projects/Haldiram Tajganj.png",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      image: "/Projects/Haldiram-Tajganj.png",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "TBD"
+      location: "TBD",
     },
     {
       id: 11,
       title: "Hotel Amar",
       category: "hospitality",
-      image: "/Projects/Hotal Amar.png",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      image: "/Projects/Hotal-Amar.png",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "TBD"
+      location: "TBD",
     },
     {
       id: 12,
       title: "Hotel Alleviate",
       category: "hospitality",
-      image: "/Projects/Hotel Alleviate.png",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      image: "/Projects/Hotel-Alleviate.png",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "TBD"
+      location: "TBD",
     },
     {
       id: 13,
       title: "Hotel Idhyan Palace",
       category: "hospitality",
-      image: "/Projects/Hotel Idhyan Palace.png",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      image: "/Projects/Hotel-Idhyan-Palace.png",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "TBD"
+      location: "TBD",
     },
     {
       id: 14,
       title: "Jaipuria School Noida",
       category: "educational",
-      image: "/Projects/Jaipuria School Noida.png",
+      image: "/Projects/Jaipuria-School-Noida.png",
       description:
         "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
@@ -206,7 +219,7 @@ const Projects = () => {
       id: 15,
       title: "JS University",
       category: "educational",
-      image: "/Projects/JS University.jpg",
+      image: "/Projects/JS-University.jpg",
       description:
         "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
@@ -216,7 +229,7 @@ const Projects = () => {
       id: 16,
       title: "KP Hospital",
       category: "healthcare",
-      image: "/Projects/KP Hospital.png",
+      image: "/Projects/KP-Hospital.png",
       description:
         "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
@@ -226,7 +239,7 @@ const Projects = () => {
       id: 17,
       title: "Lalita Grand",
       category: "hospitality",
-      image: "/Projects/Lalita Grand.png",
+      image: "/Projects/Lalita-Grand.png",
       description:
         "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
@@ -236,7 +249,7 @@ const Projects = () => {
       id: 18,
       title: "Meher Cinema Agra",
       category: "entertainment",
-      image: "/Projects/Meher Cinema Agra.jpg",
+      image: "/Projects/Meher-Cinema-Agra.jpg",
       description:
         "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
@@ -246,7 +259,7 @@ const Projects = () => {
       id: 19,
       title: "Nayati Hospital",
       category: "healthcare",
-      image: "/Projects/Nayati Hospital.png",
+      image: "/Projects/Nayati-Hospital.png",
       description:
         "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
@@ -256,7 +269,7 @@ const Projects = () => {
       id: 20,
       title: "Neel Clarks Inn",
       category: "hospitality",
-      image: "/Projects/Neel Clarks Inn.png",
+      image: "/Projects/Neel-Clarks-Inn.png",
       description:
         "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
@@ -266,7 +279,7 @@ const Projects = () => {
       id: 21,
       title: "Paras Hospital",
       category: "healthcare",
-      image: "/Projects/Paras Hospital (1).png",
+      image: "/Projects/Paras-Hospital-(1).png",
       description:
         "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
@@ -306,7 +319,7 @@ const Projects = () => {
       id: 25,
       title: "Radisson Mathura",
       category: "hospitality",
-      image: "/Projects/Radisson Mathura.jpg",
+      image: "/Projects/Radisson-Mathura.jpg",
       description:
         "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
@@ -316,7 +329,7 @@ const Projects = () => {
       id: 26,
       title: "Rainbow Hospital Agra",
       category: "healthcare",
-      image: "/Projects/Rainbow Hospital Agra.png",
+      image: "/Projects/Rainbow-Hospital-Agra.png",
       description:
         "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
@@ -326,7 +339,7 @@ const Projects = () => {
       id: 27,
       title: "Royal Reagant",
       category: "commercial",
-      image: "/Projects/Royal Reagant.png",
+      image: "/Projects/Royal-Reagant.png",
       description:
         "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
@@ -346,7 +359,7 @@ const Projects = () => {
       id: 29,
       title: "Sharda School Agra",
       category: "educational",
-      image: "/Projects/Sharda School Agra.png",
+      image: "/Projects/Sharda-School-Agra.png",
       description:
         "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
@@ -356,7 +369,7 @@ const Projects = () => {
       id: 30,
       title: "Sharda University",
       category: "educational",
-      image: "/Projects/Sharda University.png",
+      image: "/Projects/Sharda-University.png",
       description:
         "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
@@ -366,7 +379,7 @@ const Projects = () => {
       id: 31,
       title: "Shree Krisha Hospital",
       category: "healthcare",
-      image: "/Projects/Shree Krisha Hospital.png",
+      image: "/Projects/Shree-Krisha-Hospital.png",
       description:
         "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
@@ -376,7 +389,7 @@ const Projects = () => {
       id: 32,
       title: "Synergy Hospital",
       category: "healthcare",
-      image: "/Projects/Synergy Hospital .png",
+      image: "/Projects/Synergy-Hospital-.png",
       description:
         "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
@@ -386,7 +399,7 @@ const Projects = () => {
       id: 33,
       title: "Tandon Hospital",
       category: "healthcare",
-      image: "/Projects/Tandon Hospital.png",
+      image: "/Projects/Tandon-Hospital.png",
       description:
         "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
@@ -396,7 +409,7 @@ const Projects = () => {
       id: 34,
       title: "Upadhay Hospital",
       category: "healthcare",
-      image: "/Projects/Upadhay Hospital.png",
+      image: "/Projects/Upadhay-Hospital.png",
       description:
         "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
@@ -406,7 +419,7 @@ const Projects = () => {
       id: 35,
       title: "Vimal Cinema",
       category: "entertainment",
-      image: "/Projects/Vimal Cinema.png",
+      image: "/Projects/Vimal-Cinema.png",
       description:
         "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
@@ -416,7 +429,7 @@ const Projects = () => {
       id: 36,
       title: "Wingston Barsana",
       category: "hospitality",
-      image: "/Projects/Wingston Barsana.png",
+      image: "/Projects/Wingston-Barsana.png",
       description:
         "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
@@ -426,7 +439,7 @@ const Projects = () => {
       id: 37,
       title: "Wingston Mathura",
       category: "hospitality",
-      image: "/Projects/Wingston Mathura.png",
+      image: "/Projects/Wingston-Mathura.png",
       description:
         "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
