@@ -76,7 +76,7 @@ const Projects = () => {
 
   const projects = [
     {
-      id: 41,
+      id: 1,
       title: "Amar Care Mathura",
       category: "healthcare",
       image: "/Projects/Amar Care Mathura.png",
@@ -85,7 +85,7 @@ const Projects = () => {
       location: "Mathura, Uttar Pradesh"
     },
     {
-      id: 42,
+      id: 2,
       title: "Apollo Clinic Agra",
       category: "healthcare",
       image: "/Projects/Apollo Clininc Agra.png",
@@ -94,7 +94,7 @@ const Projects = () => {
       location: "Agra, Uttar Pradesh"
     },
     {
-      id: 43,
+      id: 3,
       title: "BestWestern Mathura",
       category: "hospitality",
       image: "/Projects/BestWestern Mathura.png",
@@ -103,7 +103,7 @@ const Projects = () => {
       location: "Mathura, Uttar Pradesh"
     },
     {
-      id: 44,
+      id: 4,
       title: "City Hospital",
       category: "healthcare",
       image: "/Projects/City Hospital.png",
@@ -112,7 +112,7 @@ const Projects = () => {
       location: "TBD"
     },
     {
-      id: 45,
+      id: 5,
       title: "GD Goenka Agra",
       category: "educational",
       image: "/Projects/GD Goenka Agra.png",
@@ -121,7 +121,7 @@ const Projects = () => {
       location: "Agra, Uttar Pradesh"
     },
     {
-      id: 46,
+      id: 6,
       title: "GD Goenka Gwalior",
       category: "educational",
       image: "/Projects/GD Goenka Gwalior.png",
@@ -130,8 +130,8 @@ const Projects = () => {
       location: "Gwalior, Madhya Pradesh"
     },
     {
-      id: 47,
-      title: "GD Goenka Lucknow",
+      id: 7,
+      title: "GD Goenka Luckhnow",
       category: "educational",
       image: "/Projects/GD Goenka Lucknow.png",
       description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
@@ -139,7 +139,7 @@ const Projects = () => {
       location: "Lucknow, Uttar Pradesh"
     },
     {
-      id: 48,
+      id: 8,
       title: "Gold Cinema",
       category: "entertainment",
       image: "/Projects/Gold Cinema.jpg",
@@ -148,7 +148,7 @@ const Projects = () => {
       location: "TBD"
     },
     {
-      id: 49,
+      id: 9,
       title: "Gurudwara Guru Ka Taal Agra",
       category: "commercial",
       image: "/Projects/Gurudwara-Guru-Ka-Taal-Agra.jpg",
@@ -157,7 +157,7 @@ const Projects = () => {
       location: "Agra, Uttar Pradesh"
     },
     {
-      id: 50,
+      id: 10,
       title: "Haldiram Tajganj",
       category: "commercial",
       image: "/Projects/Haldiram Tajganj.png",
@@ -166,7 +166,7 @@ const Projects = () => {
       location: "TBD"
     },
     {
-      id: 51,
+      id: 11,
       title: "Hotel Amar",
       category: "hospitality",
       image: "/Projects/Hotal Amar.png",
@@ -175,7 +175,7 @@ const Projects = () => {
       location: "TBD"
     },
     {
-      id: 52,
+      id: 12,
       title: "Hotel Alleviate",
       category: "hospitality",
       image: "/Projects/Hotel Alleviate.png",
@@ -184,7 +184,7 @@ const Projects = () => {
       location: "TBD"
     },
     {
-      id: 53,
+      id: 13,
       title: "Hotel Idhyan Palace",
       category: "hospitality",
       image: "/Projects/Hotel Idhyan Palace.png",
