@@ -1,41 +1,77 @@
-import  { useState, useEffect } from 'react';
-import { 
-  Building2, 
-  Factory, 
-  HeartPulse, 
-  Hotel, 
-  GraduationCap, 
-  FerrisWheel, 
-  Landmark, 
+import { useState, useEffect } from "react";
+import {
+  Building2,
+  Factory,
+  HeartPulse,
+  Hotel,
+  GraduationCap,
+  FerrisWheel,
+  Landmark,
   Home,
   LayoutGrid,
   MapPin,
   Phone,
   FileText,
-  Folder
-} from 'lucide-react';
-import heroImage from '../Images/Projects.jpg';
-import Navbar from '../components/Navbar';
-import { motion, Variants } from 'framer-motion';
-import CountUp from 'react-countup';
+  Folder,
+} from "lucide-react";
+import heroImage from "../Images/Projects.jpg";
+import Navbar from "../components/Navbar";
+import { motion, Variants } from "framer-motion";
+import CountUp from "react-countup";
 
 const Projects = () => {
   useEffect(() => {
-    window.scrollTo({ top: 0, behavior: 'auto' });
+    window.scrollTo({ top: 0, behavior: "auto" });
   }, []);
 
-  const [selectedCategory, setSelectedCategory] = useState('all');
+  const [selectedCategory, setSelectedCategory] = useState("all");
 
   const categories = [
-    { id: 'all', name: 'All Projects', icon: <LayoutGrid className="w-4 h-4" /> },
-    { id: 'commercial', name: 'Commercial', icon: <Building2 className="w-4 h-4" /> },
-    { id: 'industrial', name: 'Industrial', icon: <Factory className="w-4 h-4" /> },
-    { id: 'healthcare', name: 'Healthcare', icon: <HeartPulse className="w-4 h-4" /> },
-    { id: 'hospitality', name: 'Hospitality', icon: <Hotel className="w-4 h-4" /> },
-    { id: 'educational', name: 'Educational', icon: <GraduationCap className="w-4 h-4" /> },
-    { id: 'entertainment', name: 'Entertainment', icon: <FerrisWheel className="w-4 h-4" /> },
-    { id: 'government', name: 'Government', icon: <Landmark className="w-4 h-4" /> },
-    { id: 'residential', name: 'Residential', icon: <Home className="w-4 h-4" /> },
+    {
+      id: "all",
+      name: "All Projects",
+      icon: <LayoutGrid className="w-4 h-4" />,
+    },
+    {
+      id: "commercial",
+      name: "Commercial",
+      icon: <Building2 className="w-4 h-4" />,
+    },
+    {
+      id: "industrial",
+      name: "Industrial",
+      icon: <Factory className="w-4 h-4" />,
+    },
+    {
+      id: "healthcare",
+      name: "Healthcare",
+      icon: <HeartPulse className="w-4 h-4" />,
+    },
+    {
+      id: "hospitality",
+      name: "Hospitality",
+      icon: <Hotel className="w-4 h-4" />,
+    },
+    {
+      id: "educational",
+      name: "Educational",
+      icon: <GraduationCap className="w-4 h-4" />,
+    },
+    {
+      id: "entertainment",
+      name: "Entertainment",
+      icon: <FerrisWheel className="w-4 h-4" />,
+    },
+    {
+      id: "government",
+      name: "Government",
+      icon: <Landmark className="w-4 h-4" />,
+    },
+    {
+      id: "residential",
+      name: "Residential",
+      icon: <Home className="w-4 h-4" />,
+    },
   ];
 
   const projects = [
@@ -44,344 +80,381 @@ const Projects = () => {
       title: "Amar Care Hospital",
       category: "healthcare",
       image: "public/Projects/Amar Care Mathura.png",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "Mathura, Uttar Pradesh"
+      location: "Mathura, Uttar Pradesh",
     },
     {
       id: 2,
       title: "Apollo Clinic",
       category: "healthcare",
       image: "public/Projects/Apollo Clininc Agra.png",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "Apollo Hospitals",
-      location: "Agra, Uttar Pradesh"
+      location: "Agra, Uttar Pradesh",
     },
     {
       id: 3,
       title: "Best Western",
       category: "hospitality",
       image: "public/Projects/BestWestern Mathura.png",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "BWH Hotel Group",
-      location: "Mathura, Uttar Pradesh"
+      location: "Mathura, Uttar Pradesh",
     },
     {
       id: 4,
       title: "City Hospital",
       category: "healthcare",
       image: "public/Projects/City Hospital.png",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "Agra, Uttar Pradesh"
+      location: "Agra, Uttar Pradesh",
     },
     {
       id: 5,
       title: "GD Goenka Agra",
       category: "educational",
       image: "public/Projects/GD Goenka Agra.png",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "GD Goenka Group",
-      location: "Agra, Uttar Pradesh"
+      location: "Agra, Uttar Pradesh",
     },
     {
       id: 6,
       title: "GD Goenka Gwalior",
       category: "educational",
       image: "public/Projects/GD Goenka Gwalior.png",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "Gwalior, Madhya Pradesh"
+      location: "Gwalior, Madhya Pradesh",
     },
     {
       id: 7,
       title: "GD Goenka Luckhnow",
       category: "educational",
       image: "public/Projects/GD Goenka Luckhnow.png",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "Lucknow, Uttar Pradesh"
+      location: "Lucknow, Uttar Pradesh",
     },
     {
       id: 8,
       title: "Gold Cinema",
       category: "entertainment",
       image: "public/Projects/Gold Cinema.jpg",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "Gold Digitech Theatres",
-      location: "Agra, Uttar Pradesh"
+      location: "Agra, Uttar Pradesh",
     },
     {
       id: 9,
       title: "Gurudwara",
       category: "government",
       image: "public/Projects/Gurudwara-Guru-Ka-Taal-Agra.jpg",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "Agra, Uttar Pradesh"
+      location: "Agra, Uttar Pradesh",
     },
     {
       id: 10,
       title: "Haldiram",
       category: "commercial",
       image: "public/Projects/Haldiram Tajganj.png",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "Haldiram Group",
-      location: "Agra, Uttar Pradesh"
+      location: "Agra, Uttar Pradesh",
     },
     {
       id: 11,
       title: "Amar Hotel",
       category: "hospitality",
       image: "public/Projects/Hotal Amar.png",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "Singh Hotels Pvt Ltd.",
-      location: "Agra, Uttar Pradesh"
+      location: "Agra, Uttar Pradesh",
     },
     {
       id: 12,
       title: "Hotel Alleviate",
       category: "hospitality",
       image: "public/Projects/Hotel Alleviate.png",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "Agra, Uttar Pradesh"
+      location: "Agra, Uttar Pradesh",
     },
     {
       id: 13,
       title: "Hotel Idhyan Palace",
       category: "hospitality",
       image: "public/Projects/Hotel Idhyan Palace.png",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "Vrindavan, Uttar Pradesh"
+      location: "Vrindavan, Uttar Pradesh",
     },
     {
       id: 14,
       title: "Jaipuria School Noida",
       category: "educational",
       image: "/Projects/Jaipuria School Noida.png",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "Noida, Uttar Pradesh"
+      location: "Noida, Uttar Pradesh",
     },
     {
       id: 15,
       title: "JS University",
       category: "educational",
       image: "/Projects/JS University.jpg",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "TBD"
+      location: "TBD",
     },
     {
       id: 16,
       title: "KP Hospital",
       category: "healthcare",
       image: "/Projects/KP Hospital.png",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "TBD"
+      location: "TBD",
     },
     {
       id: 17,
       title: "Lalita Grand",
       category: "hospitality",
       image: "/Projects/Lalita Grand.png",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "TBD"
+      location: "TBD",
     },
     {
       id: 18,
       title: "Meher Cinema Agra",
       category: "entertainment",
       image: "/Projects/Meher Cinema Agra.jpg",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "Agra, Uttar Pradesh"
+      location: "Agra, Uttar Pradesh",
     },
     {
       id: 19,
       title: "Nayati Hospital",
       category: "healthcare",
       image: "/Projects/Nayati Hospital.png",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "TBD"
+      location: "TBD",
     },
     {
       id: 20,
       title: "Neel Clarks Inn",
       category: "hospitality",
       image: "/Projects/Neel Clarks Inn.png",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "TBD"
+      location: "TBD",
     },
     {
       id: 21,
       title: "Paras Hospital",
       category: "healthcare",
       image: "/Projects/Paras Hospital (1).png",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "TBD"
+      location: "TBD",
     },
     {
       id: 22,
       title: "PremMandir",
       category: "commercial",
       image: "/Projects/PremMandir.jpg",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "TBD"
+      location: "TBD",
     },
     {
       id: 23,
       title: "Pushpanjali",
       category: "commercial",
       image: "/Projects/Pushpanjali.png",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "TBD"
+      location: "TBD",
     },
     {
       id: 24,
       title: "RadhaSwami",
       category: "commercial",
       image: "/Projects/RadhaSwami.png",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "TBD"
+      location: "TBD",
     },
     {
       id: 25,
       title: "Radisson Mathura",
       category: "hospitality",
       image: "/Projects/Radisson Mathura.jpg",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "Mathura, Uttar Pradesh"
+      location: "Mathura, Uttar Pradesh",
     },
     {
       id: 26,
       title: "Rainbow Hospital Agra",
       category: "healthcare",
       image: "/Projects/Rainbow Hospital Agra.png",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "Agra, Uttar Pradesh"
+      location: "Agra, Uttar Pradesh",
     },
     {
       id: 27,
       title: "Royal Reagant",
       category: "commercial",
       image: "/Projects/Royal Reagant.png",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "TBD"
+      location: "TBD",
     },
     {
       id: 28,
       title: "Shantived",
       category: "commercial",
       image: "/Projects/Shantived.png",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "TBD"
+      location: "TBD",
     },
     {
       id: 29,
       title: "Sharda School Agra",
       category: "educational",
       image: "/Projects/Sharda School Agra.png",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "Agra, Uttar Pradesh"
+      location: "Agra, Uttar Pradesh",
     },
     {
       id: 30,
       title: "Sharda University",
       category: "educational",
       image: "/Projects/Sharda University.png",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "TBD"
+      location: "TBD",
     },
     {
       id: 31,
       title: "Shree Krisha Hospital",
       category: "healthcare",
       image: "/Projects/Shree Krisha Hospital.png",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "TBD"
+      location: "TBD",
     },
     {
       id: 32,
       title: "Synergy Hospital",
       category: "healthcare",
       image: "/Projects/Synergy Hospital .png",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "TBD"
+      location: "TBD",
     },
     {
       id: 33,
       title: "Tandon Hospital",
       category: "healthcare",
       image: "/Projects/Tandon Hospital.png",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "TBD"
+      location: "TBD",
     },
     {
       id: 34,
       title: "Upadhay Hospital",
       category: "healthcare",
       image: "/Projects/Upadhay Hospital.png",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "TBD"
+      location: "TBD",
     },
     {
       id: 35,
       title: "Vimal Cinema",
       category: "entertainment",
       image: "/Projects/Vimal Cinema.png",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "TBD"
+      location: "TBD",
     },
     {
       id: 36,
       title: "Wingston Barsana",
       category: "hospitality",
       image: "/Projects/Wingston Barsana.png",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "Barsana, Uttar Pradesh"
+      location: "Barsana, Uttar Pradesh",
     },
     {
       id: 37,
       title: "Wingston Mathura",
       category: "hospitality",
       image: "/Projects/Wingston Mathura.png",
-      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      description:
+        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "Mathura, Uttar Pradesh"
+      location: "Mathura, Uttar Pradesh",
     },
     // Add more projects as needed...
   ];
-  
+
   // --- Animation Variants ---
   const fadeInUp: Variants = {
     hidden: { opacity: 0, y: 50 },
-    visible: { 
-      opacity: 1, 
-      y: 0, 
-      transition: { duration: 0.8, ease: "easeOut" } 
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: { duration: 0.8, ease: "easeOut" },
     },
   };
 
@@ -391,7 +464,7 @@ const Projects = () => {
       opacity: 1,
       transition: {
         staggerChildren: 0.15,
-        delayChildren: 0.2
+        delayChildren: 0.2,
       },
     },
   };
@@ -405,13 +478,13 @@ const Projects = () => {
     },
   };
 
-  const filteredProjects = selectedCategory === 'all' 
-    ? projects 
-    : projects.filter(project => project.category === selectedCategory);
+  const filteredProjects =
+    selectedCategory === "all"
+      ? projects
+      : projects.filter((project) => project.category === selectedCategory);
 
   return (
     <div className="font-sans text-slate-800 bg-white selection:bg-blue-600 selection:text-white">
-      
       {/* ================= HERO SECTION ================= */}
       <div className="relative w-full h-[80vh] md:h-600px min-h-[500px] flex flex-col">
         <div
@@ -443,24 +516,28 @@ const Projects = () => {
                 <Folder className="w-4 h-4 text-green-400" />
                 Project Portfolio
               </motion.div>
-              
+
               <motion.h1
                 initial="hidden"
                 animate="visible"
                 variants={fadeInDown}
                 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight"
               >
-                Built to Last. <br/>
-                <span className="text-blue-400">Engineered for Efficiency.</span>
+                Built to Last. <br />
+                <span className="text-blue-400">
+                  Engineered for Efficiency.
+                </span>
               </motion.h1>
-              
+
               <motion.p
                 initial="hidden"
                 animate="visible"
                 variants={fadeInUp}
                 className="text-base sm:text-lg text-slate-300 max-w-xl leading-relaxed border-l-4 border-blue-600 pl-4 md:pl-6"
               >
-                Explore our successful HVAC installations across residential, commercial, and industrial sectors. Proven expertise in complex climate challenges.
+                Explore our successful HVAC installations across residential,
+                commercial, and industrial sectors. Proven expertise in complex
+                climate challenges.
               </motion.p>
             </div>
           </div>
@@ -510,146 +587,156 @@ const Projects = () => {
       </div>
 
       <div className="font-sans text-slate-800 bg-slate-50 min-h-screen">
-      
-      {/* ================= HEADING SECTION ================= */}
-      <section className="pt-24 pb-12 bg-white relative overflow-hidden">
-        {/* Technical Grid Background */}
-        <div className="absolute inset-0 opacity-[0.05] pointer-events-none" 
-             style={{ 
-               backgroundImage: 'linear-gradient(#94a3b8 1px, transparent 1px), linear-gradient(to right, #94a3b8 1px, transparent 1px)', 
-               backgroundSize: '40px 40px' 
-             }}>
-        </div>
+        {/* ================= HEADING SECTION ================= */}
+        <section className="pt-24 pb-12 bg-white relative overflow-hidden">
+          {/* Technical Grid Background */}
+          <div
+            className="absolute inset-0 opacity-[0.05] pointer-events-none"
+            style={{
+              backgroundImage:
+                "linear-gradient(#94a3b8 1px, transparent 1px), linear-gradient(to right, #94a3b8 1px, transparent 1px)",
+              backgroundSize: "40px 40px",
+            }}
+          ></div>
 
-        <div className="container mx-auto px-6 md:px-12 text-center relative z-10">
-          <motion.h1 
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            variants={fadeInDown}
-            className="text-4xl md:text-5xl font-bold text-slate-900 mb-6 tracking-tight"
-          >
-            Our Projects
-          </motion.h1>
-          <motion.div 
-            initial={{ width: 0 }}
-            whileInView={{ width: 96 }} // 24 * 4 = 96px
-            viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
-            className="h-1.5 bg-blue-600 rounded-full mx-auto mb-6"
-          ></motion.div>
-          <motion.p 
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            variants={fadeInUp}
-            className="text-slate-500 text-lg max-w-3xl mx-auto leading-relaxed"
-          >
-            With a proven track record of successful implementations across various sectors, 
-            our diverse portfolio showcases our adaptability and technical prowess.
-          </motion.p>
-        </div>
-      </section>
-
-      {/* ================= FILTER BAR (Centered Wrap Design) ================= */}
-      <section className="bg-white sticky top-0 z-40 border-y border-slate-200 shadow-sm backdrop-blur-md bg-opacity-90">
-        <div className="container mx-auto px-4 md:px-12 py-6">
-          {/* Flex Wrap Layout */}
-          <div className="flex flex-wrap justify-center gap-3 md:gap-4">
-            {categories.map((category) => (
-              <button
-                key={category.id}
-                onClick={() => setSelectedCategory(category.id)}
-                className={`flex items-center space-x-2 px-6 py-2.5 rounded-full text-sm font-bold transition-all duration-300 border ${
-                  selectedCategory === category.id
-                    ? 'bg-slate-900 text-white border-slate-900 shadow-lg transform scale-105'
-                    : 'bg-white text-slate-600 border-slate-200 hover:border-blue-400 hover:text-blue-600 hover:bg-white hover:shadow-sm'
-                }`}
-              >
-                {category.icon}
-                <span>{category.name}</span>
-              </button>
-            ))}
+          <div className="container mx-auto px-6 md:px-12 text-center relative z-10">
+            <motion.h1
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              variants={fadeInDown}
+              className="text-4xl md:text-5xl font-bold text-slate-900 mb-6 tracking-tight"
+            >
+              Our Projects
+            </motion.h1>
+            <motion.div
+              initial={{ width: 0 }}
+              whileInView={{ width: 96 }} // 24 * 4 = 96px
+              viewport={{ once: true }}
+              transition={{ duration: 0.8 }}
+              className="h-1.5 bg-blue-600 rounded-full mx-auto mb-6"
+            ></motion.div>
+            <motion.p
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              variants={fadeInUp}
+              className="text-slate-500 text-lg max-w-3xl mx-auto leading-relaxed"
+            >
+              With a proven track record of successful implementations across
+              various sectors, our diverse portfolio showcases our adaptability
+              and technical prowess.
+            </motion.p>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* ================= PROJECT GRID ================= */}
-      <section className="py-16 px-4 sm:px-6 md:px-12 relative overflow-hidden">
-        
-        {/* Technical Grid Background */}
-        <div className="absolute inset-0 opacity-[0.05] pointer-events-none" 
-             style={{ 
-               backgroundImage: 'linear-gradient(#94a3b8 1px, transparent 1px), linear-gradient(to right, #94a3b8 1px, transparent 1px)', 
-               backgroundSize: '40px 40px' 
-             }}>
-        </div>
+        {/* ================= FILTER BAR (Centered Wrap Design) ================= */}
+        <section className="bg-white sticky top-0 z-40 border-y border-slate-200 shadow-sm backdrop-blur-md bg-opacity-90">
+          <div className="container mx-auto px-4 md:px-12 py-6">
+            {/* Flex Wrap Layout */}
+            <div className="flex flex-wrap justify-center gap-3 md:gap-4">
+              {categories.map((category) => (
+                <button
+                  key={category.id}
+                  onClick={() => setSelectedCategory(category.id)}
+                  className={`flex items-center space-x-2 px-6 py-2.5 rounded-full text-sm font-bold transition-all duration-300 border ${
+                    selectedCategory === category.id
+                      ? "bg-slate-900 text-white border-slate-900 shadow-lg transform scale-105"
+                      : "bg-white text-slate-600 border-slate-200 hover:border-blue-400 hover:text-blue-600 hover:bg-white hover:shadow-sm"
+                  }`}
+                >
+                  {category.icon}
+                  <span>{category.name}</span>
+                </button>
+              ))}
+            </div>
+          </div>
+        </section>
 
-        <div className="container mx-auto relative z-10">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {filteredProjects.map((project) => (
-              <div 
-                key={project.id}
-                className="bg-white rounded-xl overflow-hidden shadow-lg border border-slate-200 group hover:shadow-xl transition-all duration-300"
-              >
-                {/* Image Container */}
-                <div className="relative overflow-hidden h-64 w-full">
-                  <img 
-                    src={project.image} 
-                    alt={project.title} 
-                    className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
-                  />
-                  {/* Category Badge */}
-                  <div className="absolute top-4 left-4">
-                    <span className="inline-block bg-blue-100 text-blue-800 text-xs font-bold px-3 py-1.5 rounded-full uppercase tracking-wider">
-                      {categories.find(c => c.id === project.category)?.name}
-                    </span>
+        {/* ================= PROJECT GRID ================= */}
+        <section className="py-16 px-4 sm:px-6 md:px-12 relative overflow-hidden">
+          {/* Technical Grid Background */}
+          <div
+            className="absolute inset-0 opacity-[0.05] pointer-events-none"
+            style={{
+              backgroundImage:
+                "linear-gradient(#94a3b8 1px, transparent 1px), linear-gradient(to right, #94a3b8 1px, transparent 1px)",
+              backgroundSize: "40px 40px",
+            }}
+          ></div>
+
+          <div className="container mx-auto relative z-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {filteredProjects.map((project) => (
+                <div
+                  key={project.id}
+                  className="bg-white rounded-xl overflow-hidden shadow-lg border border-slate-200 group hover:shadow-xl transition-all duration-300"
+                >
+                  {/* Image Container */}
+                  <div className="relative overflow-hidden h-64 w-full">
+                    <img
+                      src={project.image}
+                      alt={project.title}
+                      className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+                    />
+                    {/* Category Badge */}
+                    <div className="absolute top-4 left-4">
+                      <span className="inline-block bg-blue-100 text-blue-800 text-xs font-bold px-3 py-1.5 rounded-full uppercase tracking-wider">
+                        {
+                          categories.find((c) => c.id === project.category)
+                            ?.name
+                        }
+                      </span>
+                    </div>
                   </div>
-                </div>
 
-                {/* Content */}
-                <div className="p-6">
-                  <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-blue-600 transition-colors">
-                    {project.title}
-                  </h3>
-                  <p className="text-slate-600 text-sm leading-relaxed mb-6 line-clamp-3">
-                    {project.description}
-                  </p>
+                  {/* Content */}
+                  <div className="p-6">
+                    <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-blue-600 transition-colors">
+                      {project.title}
+                    </h3>
+                    <p className="text-slate-600 text-sm leading-relaxed mb-6 line-clamp-3">
+                      {project.description}
+                    </p>
 
-                  {/* Footer Info */}
-                  <div className="flex items-center justify-between pt-4 border-t border-slate-100">
-                    <div className="flex flex-col space-y-1.5">
-                      <div className="flex items-center text-xs text-slate-500 font-medium">
-                        <Building2 className="w-3.5 h-3.5 mr-1.5 text-slate-400" />
-                        {project.client}
-                      </div>
-                      <div className="flex items-center text-xs text-slate-500 font-medium">
-                        <MapPin className="w-3.5 h-3.5 mr-1.5 text-slate-400" />
-                        {project.location}
+                    {/* Footer Info */}
+                    <div className="flex items-center justify-between pt-4 border-t border-slate-100">
+                      <div className="flex flex-col space-y-1.5">
+                        <div className="flex items-center text-xs text-slate-500 font-medium">
+                          <Building2 className="w-3.5 h-3.5 mr-1.5 text-slate-400" />
+                          {project.client}
+                        </div>
+                        <div className="flex items-center text-xs text-slate-500 font-medium">
+                          <MapPin className="w-3.5 h-3.5 mr-1.5 text-slate-400" />
+                          {project.location}
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
-
-    </div>
+        </section>
+      </div>
 
       {/* ================= UPGRADED CTA SECTION ================= */}
       <section className="relative py-16 md:py-24 bg-slate-900 overflow-hidden border-t border-slate-800">
-        
         {/* Background "Blueprint" Grid */}
-        <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px)', backgroundSize: '40px 40px' }}></div>
-        
+        <div
+          className="absolute inset-0 opacity-10"
+          style={{
+            backgroundImage:
+              "linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px)",
+            backgroundSize: "40px 40px",
+          }}
+        ></div>
+
         {/* Ambient Glow */}
         <div className="absolute top-0 right-0 w-[300px] h-[300px] md:w-[500px] md:h-[500px] bg-blue-600/10 rounded-full blur-[80px] md:blur-[100px] pointer-events-none"></div>
 
         <div className="container mx-auto px-6 text-center relative z-10">
-          
-          <motion.div 
+          <motion.div
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
@@ -657,13 +744,15 @@ const Projects = () => {
             className="inline-flex items-center gap-2 mb-6 px-4 py-1.5 bg-blue-900/50 border border-blue-500/30 rounded-full"
           >
             <span className="relative flex h-2 w-2">
-               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
-               <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
             </span>
-            <span className="text-blue-300 text-xs font-bold uppercase tracking-widest">Accepting New Commercial Projects</span>
+            <span className="text-blue-300 text-xs font-bold uppercase tracking-widest">
+              Accepting New Commercial Projects
+            </span>
           </motion.div>
 
-          <motion.h2 
+          <motion.h2
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
@@ -672,26 +761,28 @@ const Projects = () => {
           >
             Ready to Start Your Project?
           </motion.h2>
-          
-          <motion.p 
+
+          <motion.p
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
             variants={fadeInUp}
             className="text-slate-400 mb-10 max-w-2xl mx-auto text-base md:text-lg leading-relaxed font-medium"
           >
-            Let's discuss your HVAC requirements. Our engineering team will analyze your floor plan and provide a comprehensive cooling strategy.
+            Let's discuss your HVAC requirements. Our engineering team will
+            analyze your floor plan and provide a comprehensive cooling
+            strategy.
           </motion.p>
-          
-          <motion.div 
+
+          <motion.div
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
             variants={fadeInUp}
             className="flex flex-col sm:flex-row gap-4 justify-center items-center"
           >
-            <a 
-              href="tel:+919876543210" 
+            <a
+              href="tel:+919876543210"
               className="group bg-white text-slate-900 hover:bg-blue-50 px-8 py-4 font-semibold tracking-wide rounded-sm shadow-[0_0_20px_rgba(255,255,255,0.1)] transition-all flex items-center justify-center min-w-[200px]"
             >
               <Phone className="mr-2 w-5 h-5 text-blue-600" />
@@ -706,10 +797,8 @@ const Projects = () => {
           <p className="mt-8 text-xs text-slate-500 uppercase tracking-[0.2em] font-medium">
             Licensed • Insured • Certified
           </p>
-
         </div>
       </section>
-
     </div>
   );
 };
