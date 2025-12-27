@@ -115,7 +115,7 @@ const Projects = () => {
       id: 9,
       title: "Gurudwara",
       category: "government",
-      image: "public/Projects/Gurudwara-Guru-Ka-Taal-Agra.png",
+      image: "public/Projects/Gurudwara-Guru-Ka-Taal-Agra.jpg",
       description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
       location: "Agra, Uttar Pradesh"
@@ -133,7 +133,7 @@ const Projects = () => {
       id: 11,
       title: "Amar Hotel",
       category: "hospitality",
-      image: "public/Projects/Hotel Amar.png",
+      image: "public/Projects/Hotal Amar.png",
       description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
       location: "Agra, Uttar Pradesh"
@@ -156,7 +156,222 @@ const Projects = () => {
       client: "CPWD",
       location: "Vrindavan, Uttar Pradesh"
     },
-
+    {
+      id: 14,
+      title: "Jaipuria School Noida",
+      category: "educational",
+      image: "/Projects/Jaipuria School Noida.png",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      client: "CPWD",
+      location: "Noida, Uttar Pradesh"
+    },
+    {
+      id: 15,
+      title: "JS University",
+      category: "educational",
+      image: "/Projects/JS University.jpg",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      client: "CPWD",
+      location: "TBD"
+    },
+    {
+      id: 16,
+      title: "KP Hospital",
+      category: "healthcare",
+      image: "/Projects/KP Hospital.png",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      client: "CPWD",
+      location: "TBD"
+    },
+    {
+      id: 17,
+      title: "Lalita Grand",
+      category: "hospitality",
+      image: "/Projects/Lalita Grand.png",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      client: "CPWD",
+      location: "TBD"
+    },
+    {
+      id: 18,
+      title: "Meher Cinema Agra",
+      category: "entertainment",
+      image: "/Projects/Meher Cinema Agra.jpg",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      client: "CPWD",
+      location: "Agra, Uttar Pradesh"
+    },
+    {
+      id: 19,
+      title: "Nayati Hospital",
+      category: "healthcare",
+      image: "/Projects/Nayati Hospital.png",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      client: "CPWD",
+      location: "TBD"
+    },
+    {
+      id: 20,
+      title: "Neel Clarks Inn",
+      category: "hospitality",
+      image: "/Projects/Neel Clarks Inn.png",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      client: "CPWD",
+      location: "TBD"
+    },
+    {
+      id: 21,
+      title: "Paras Hospital",
+      category: "healthcare",
+      image: "/Projects/Paras Hospital (1).png",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      client: "CPWD",
+      location: "TBD"
+    },
+    {
+      id: 22,
+      title: "PremMandir",
+      category: "commercial",
+      image: "/Projects/PremMandir.jpg",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      client: "CPWD",
+      location: "TBD"
+    },
+    {
+      id: 23,
+      title: "Pushpanjali",
+      category: "commercial",
+      image: "/Projects/Pushpanjali.png",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      client: "CPWD",
+      location: "TBD"
+    },
+    {
+      id: 24,
+      title: "RadhaSwami",
+      category: "commercial",
+      image: "/Projects/RadhaSwami.png",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      client: "CPWD",
+      location: "TBD"
+    },
+    {
+      id: 25,
+      title: "Radisson Mathura",
+      category: "hospitality",
+      image: "/Projects/Radisson Mathura.jpg",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      client: "CPWD",
+      location: "Mathura, Uttar Pradesh"
+    },
+    {
+      id: 26,
+      title: "Rainbow Hospital Agra",
+      category: "healthcare",
+      image: "/Projects/Rainbow Hospital Agra.png",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      client: "CPWD",
+      location: "Agra, Uttar Pradesh"
+    },
+    {
+      id: 27,
+      title: "Royal Reagant",
+      category: "commercial",
+      image: "/Projects/Royal Reagant.png",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      client: "CPWD",
+      location: "TBD"
+    },
+    {
+      id: 28,
+      title: "Shantived",
+      category: "commercial",
+      image: "/Projects/Shantived.png",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      client: "CPWD",
+      location: "TBD"
+    },
+    {
+      id: 29,
+      title: "Sharda School Agra",
+      category: "educational",
+      image: "/Projects/Sharda School Agra.png",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      client: "CPWD",
+      location: "Agra, Uttar Pradesh"
+    },
+    {
+      id: 30,
+      title: "Sharda University",
+      category: "educational",
+      image: "/Projects/Sharda University.png",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      client: "CPWD",
+      location: "TBD"
+    },
+    {
+      id: 31,
+      title: "Shree Krisha Hospital",
+      category: "healthcare",
+      image: "/Projects/Shree Krisha Hospital.png",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      client: "CPWD",
+      location: "TBD"
+    },
+    {
+      id: 32,
+      title: "Synergy Hospital",
+      category: "healthcare",
+      image: "/Projects/Synergy Hospital .png",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      client: "CPWD",
+      location: "TBD"
+    },
+    {
+      id: 33,
+      title: "Tandon Hospital",
+      category: "healthcare",
+      image: "/Projects/Tandon Hospital.png",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      client: "CPWD",
+      location: "TBD"
+    },
+    {
+      id: 34,
+      title: "Upadhay Hospital",
+      category: "healthcare",
+      image: "/Projects/Upadhay Hospital.png",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      client: "CPWD",
+      location: "TBD"
+    },
+    {
+      id: 35,
+      title: "Vimal Cinema",
+      category: "entertainment",
+      image: "/Projects/Vimal Cinema.png",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      client: "CPWD",
+      location: "TBD"
+    },
+    {
+      id: 36,
+      title: "Wingston Barsana",
+      category: "hospitality",
+      image: "/Projects/Wingston Barsana.png",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      client: "CPWD",
+      location: "Barsana, Uttar Pradesh"
+    },
+    {
+      id: 37,
+      title: "Wingston Mathura",
+      category: "hospitality",
+      image: "/Projects/Wingston Mathura.png",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      client: "CPWD",
+      location: "Mathura, Uttar Pradesh"
+    },
     // Add more projects as needed...
   ];
   
