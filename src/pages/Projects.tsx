@@ -76,134 +76,121 @@ const Projects = () => {
 
   const projects = [
     {
-      id: 1,
-      title: "Amar Care Hospital",
+      id: 41,
+      title: "Amar Care Mathura",
       category: "healthcare",
-      image: "public/Projects/Amar Care Mathura.png",
-      description:
-        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      image: "/Projects/Amar Care Mathura.png",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "Mathura, Uttar Pradesh",
+      location: "Mathura, Uttar Pradesh"
     },
     {
-      id: 2,
-      title: "Apollo Clinic",
+      id: 42,
+      title: "Apollo Clinic Agra",
       category: "healthcare",
-      image: "public/Projects/Apollo Clininc Agra.png",
-      description:
-        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
-      client: "Apollo Hospitals",
-      location: "Agra, Uttar Pradesh",
+      image: "/Projects/Apollo Clininc Agra.png",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      client: "CPWD",
+      location: "Agra, Uttar Pradesh"
     },
     {
-      id: 3,
-      title: "Best Western",
+      id: 43,
+      title: "BestWestern Mathura",
       category: "hospitality",
-      image: "public/Projects/BestWestern Mathura.png",
-      description:
-        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
-      client: "BWH Hotel Group",
-      location: "Mathura, Uttar Pradesh",
+      image: "/Projects/BestWestern Mathura.png",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      client: "CPWD",
+      location: "Mathura, Uttar Pradesh"
     },
     {
-      id: 4,
+      id: 44,
       title: "City Hospital",
       category: "healthcare",
-      image: "public/Projects/City Hospital.png",
-      description:
-        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      image: "/Projects/City Hospital.png",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "Agra, Uttar Pradesh",
+      location: "TBD"
     },
     {
-      id: 5,
+      id: 45,
       title: "GD Goenka Agra",
       category: "educational",
-      image: "public/Projects/GD Goenka Agra.png",
-      description:
-        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
-      client: "GD Goenka Group",
-      location: "Agra, Uttar Pradesh",
+      image: "/Projects/GD Goenka Agra.png",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      client: "CPWD",
+      location: "Agra, Uttar Pradesh"
     },
     {
-      id: 6,
+      id: 46,
       title: "GD Goenka Gwalior",
       category: "educational",
-      image: "public/Projects/GD Goenka Gwalior.png",
-      description:
-        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      image: "/Projects/GD Goenka Gwalior.png",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "Gwalior, Madhya Pradesh",
+      location: "Gwalior, Madhya Pradesh"
     },
     {
-      id: 7,
-      title: "GD Goenka Luckhnow",
+      id: 47,
+      title: "GD Goenka Lucknow",
       category: "educational",
-      image: "public/Projects/GD Goenka Luckhnow.png",
-      description:
-        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      image: "/Projects/GD Goenka Lucknow.png",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "Lucknow, Uttar Pradesh",
+      location: "Lucknow, Uttar Pradesh"
     },
     {
-      id: 8,
+      id: 48,
       title: "Gold Cinema",
       category: "entertainment",
-      image: "public/Projects/Gold Cinema.jpg",
-      description:
-        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
-      client: "Gold Digitech Theatres",
-      location: "Agra, Uttar Pradesh",
-    },
-    {
-      id: 9,
-      title: "Gurudwara",
-      category: "government",
-      image: "public/Projects/Gurudwara-Guru-Ka-Taal-Agra.jpg",
-      description:
-        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      image: "/Projects/Gold Cinema.jpg",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "Agra, Uttar Pradesh",
+      location: "TBD"
     },
     {
-      id: 10,
-      title: "Haldiram",
+      id: 49,
+      title: "Gurudwara Guru Ka Taal Agra",
       category: "commercial",
-      image: "public/Projects/Haldiram Tajganj.png",
-      description:
-        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
-      client: "Haldiram Group",
-      location: "Agra, Uttar Pradesh",
+      image: "/Projects/Gurudwara-Guru-Ka-Taal-Agra.jpg",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      client: "CPWD",
+      location: "Agra, Uttar Pradesh"
     },
     {
-      id: 11,
-      title: "Amar Hotel",
+      id: 50,
+      title: "Haldiram Tajganj",
+      category: "commercial",
+      image: "/Projects/Haldiram Tajganj.png",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      client: "CPWD",
+      location: "TBD"
+    },
+    {
+      id: 51,
+      title: "Hotel Amar",
       category: "hospitality",
-      image: "public/Projects/Hotal Amar.png",
-      description:
-        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
-      client: "Singh Hotels Pvt Ltd.",
-      location: "Agra, Uttar Pradesh",
+      image: "/Projects/Hotal Amar.png",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      client: "CPWD",
+      location: "TBD"
     },
     {
-      id: 12,
+      id: 52,
       title: "Hotel Alleviate",
       category: "hospitality",
-      image: "public/Projects/Hotel Alleviate.png",
-      description:
-        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      image: "/Projects/Hotel Alleviate.png",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "Agra, Uttar Pradesh",
+      location: "TBD"
     },
     {
-      id: 13,
+      id: 53,
       title: "Hotel Idhyan Palace",
       category: "hospitality",
-      image: "public/Projects/Hotel Idhyan Palace.png",
-      description:
-        "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      image: "/Projects/Hotel Idhyan Palace.png",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "Vrindavan, Uttar Pradesh",
+      location: "TBD"
     },
     {
       id: 14,
