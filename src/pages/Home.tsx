@@ -9,9 +9,7 @@ import {
   Clock,
   Phone,
   ShieldCheck,
-  ChevronRight,
-  MapPin,
-  Quote, // Added Quote based on your previous design, if needed, else it ignores it
+  ChevronRight, // Added Quote based on your previous design, if needed, else it ignores it
 } from "lucide-react";
 import heroImage from "../Images/Innovation_Centre.jpg";
 import Navbar from "../components/Navbar";
