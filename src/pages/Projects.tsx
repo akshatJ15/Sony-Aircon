@@ -93,6 +93,15 @@ const Projects = () => {
       client: "CPWD",
       location: "New Delhi, India"
     },
+    {
+      id: 7,
+      title: "Shantived",
+      category: "healthcare",
+      image: "public/Projects/Shantived.png",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      client: "CPWD",
+      location: "New Delhi, India"
+    },
     // Add more projects as needed...
   ];
   
