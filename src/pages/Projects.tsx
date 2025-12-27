@@ -1,4 +1,4 @@
-import  { useState } from 'react';
+import  { useState, useEffect } from 'react';
 import { 
   Building2, 
   Factory, 
@@ -20,6 +20,10 @@ import { motion, Variants } from 'framer-motion';
 import CountUp from 'react-countup';
 
 const Projects = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'auto' });
+  }, []);
+
   const [selectedCategory, setSelectedCategory] = useState('all');
 
   const categories = [
