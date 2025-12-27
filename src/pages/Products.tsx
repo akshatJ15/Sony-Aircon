@@ -6,7 +6,6 @@ import {
   Gauge, 
   LayoutGrid,
   Settings,
-  Thermometer,
   Wind,
   Zap,
   Phone,     
