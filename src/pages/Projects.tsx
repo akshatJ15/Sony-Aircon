@@ -41,67 +41,122 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Taj Hotels Retrofitting",
-      category: "hospitality",
-      image: "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=600",
-      description: "Comprehensive HVAC system upgrades across multiple luxury hotel properties with minimal guest disruption.",
-      client: "Taj Group",
-      location: "Multiple Locations"
+      title: "Amar Care Hospital",
+      category: "healthcare",
+      image: "public/Projects/Amar Care Mathura.png",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      client: "CPWD",
+      location: "Mathura, Uttar Pradesh"
     },
     {
       id: 2,
-      title: "Apollo Hospital Chennai",
+      title: "Apollo Clinic",
       category: "healthcare",
-      image: "https://images.pexels.com/photos/269077/pexels-photo-269077.jpeg?auto=compress&cs=tinysrgb&w=600",
-      description: "Hospital-grade HVAC implementation with specialized air handling for operation theaters and isolation rooms.",
-      client: "Apollo Hospitals",
-      location: "Chennai, India"
+      image: "public/Projects/Apollo Clininc Agra.png",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      client: "CPWD",
+      location: "Agra, Uttar Pradesh"
     },
     {
       id: 3,
-      title: "Infosys Campus Mysore",
-      category: "commercial",
-      image: "https://images.pexels.com/photos/4513946/pexels-photo-4513946.jpeg?auto=compress&cs=tinysrgb&w=600",
-      description: "Large-scale campus HVAC solution featuring energy-efficient cooling and heating systems for tech office spaces.",
-      client: "Infosys Limited",
-      location: "Mysore, India"
+      title: "Best Western",
+      category: "hospitality",
+      image: "public/Projects/BestWestern Mathura.png",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      client: "CPWD",
+      location: "Mathura, Uttar Pradesh"
     },
     {
       id: 4,
-      title: "Tech Park Tower",
-      category: "commercial",
-      image: "https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg?auto=compress&cs=tinysrgb&w=600",
-      description: "Installation of a high-efficiency VRV system for a 50-story commercial tower, ensuring individual zone control.",
-      client: "Prestige Group",
-      location: "Bangalore, India"
+      title: "City Hospital",
+      category: "healthcare",
+      image: "public/Projects/City Hospital.png",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      client: "CPWD",
+      location: "Agra, Uttar Pradesh"
     },
     {
       id: 5,
-      title: "Automotive Manufacturing Plant",
-      category: "industrial",
-      image: "https://images.pexels.com/photos/257704/pexels-photo-257704.jpeg?auto=compress&cs=tinysrgb&w=600",
-      description: "Process cooling solutions and ventilation systems for a large-scale automotive assembly line.",
-      client: "Tata Motors",
-      location: "Pune, India"
+      title: "GD Goenka",
+      category: "educational",
+      image: "public/Projects/GD Goenka Agra.png",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      client: "CPWD",
+      location: "Agra, Uttar Pradesh"
     },
     {
       id: 6,
-      title: "Government Secretariat",
-      category: "government",
-      image: "https://images.pexels.com/photos/208603/pexels-photo-208603.jpeg?auto=compress&cs=tinysrgb&w=600",
+      title: "GD Goenka",
+      category: "educational",
+      image: "public/Projects/GD Goenka Gwalior.png",
       description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "New Delhi, India"
+      location: "Gwalior, Madhya Pradesh"
     },
     {
       id: 7,
-      title: "Shantived",
-      category: "healthcare",
-      image: "public/Projects/Shantived.png",
+      title: "GD Goenka",
+      category: "educational",
+      image: "public/Projects/GD Goenka Luckhnow.png",
       description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
       client: "CPWD",
-      location: "New Delhi, India"
+      location: "Lucknow, Uttar Pradesh"
     },
+    {
+      id: 8,
+      title: "Gold Cinema",
+      category: "entertainment",
+      image: "public/Projects/Gold Cinema.jpg",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      client: "CPWD",
+      location: "Agra, Uttar Pradesh"
+    },
+    {
+      id: 9,
+      title: "Gurudwara",
+      category: "government",
+      image: "public/Projects/Gurudwara-Guru-Ka-Taal-Agra.png",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      client: "CPWD",
+      location: "Agra, Uttar Pradesh"
+    },
+    {
+      id: 10,
+      title: "Haldiram",
+      category: "commercial",
+      image: "public/Projects/Haldiram Tajganj.png",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      client: "CPWD",
+      location: "Agra, Uttar Pradesh"
+    },
+    {
+      id: 11,
+      title: "Amar Hotel",
+      category: "hospitality",
+      image: "public/Projects/Hotel Amar.png",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      client: "CPWD",
+      location: "Agra, Uttar Pradesh"
+    },
+    {
+      id: 12,
+      title: "Hotel Alleviate",
+      category: "hospitality",
+      image: "public/Projects/Hotel Alleviate.png",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      client: "CPWD",
+      location: "Agra, Uttar Pradesh"
+    },
+    {
+      id: 13,
+      title: "Hotel Idhyan Palace",
+      category: "hospitality",
+      image: "public/Projects/Hotel Idhyan Palace.png",
+      description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
+      client: "CPWD",
+      location: "Vrindavan, Uttar Pradesh"
+    },
+
     // Add more projects as needed...
   ];
   
