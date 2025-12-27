@@ -54,7 +54,7 @@ const Projects = () => {
       category: "healthcare",
       image: "public/Projects/Apollo Clininc Agra.png",
       description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
-      client: "CPWD",
+      client: "Apollo Hospitals",
       location: "Agra, Uttar Pradesh"
     },
     {
@@ -63,7 +63,7 @@ const Projects = () => {
       category: "hospitality",
       image: "public/Projects/BestWestern Mathura.png",
       description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
-      client: "CPWD",
+      client: "BWH Hotel Group",
       location: "Mathura, Uttar Pradesh"
     },
     {
@@ -77,16 +77,16 @@ const Projects = () => {
     },
     {
       id: 5,
-      title: "GD Goenka",
+      title: "GD Goenka Agra",
       category: "educational",
       image: "public/Projects/GD Goenka Agra.png",
       description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
-      client: "CPWD",
+      client: "GD Goenka Group",
       location: "Agra, Uttar Pradesh"
     },
     {
       id: 6,
-      title: "GD Goenka",
+      title: "GD Goenka Gwalior",
       category: "educational",
       image: "public/Projects/GD Goenka Gwalior.png",
       description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
@@ -95,7 +95,7 @@ const Projects = () => {
     },
     {
       id: 7,
-      title: "GD Goenka",
+      title: "GD Goenka Luckhnow",
       category: "educational",
       image: "public/Projects/GD Goenka Luckhnow.png",
       description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
@@ -108,7 +108,7 @@ const Projects = () => {
       category: "entertainment",
       image: "public/Projects/Gold Cinema.jpg",
       description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
-      client: "CPWD",
+      client: "Gold Digitech Theatres",
       location: "Agra, Uttar Pradesh"
     },
     {
@@ -126,7 +126,7 @@ const Projects = () => {
       category: "commercial",
       image: "public/Projects/Haldiram Tajganj.png",
       description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
-      client: "CPWD",
+      client: "Haldiram Group",
       location: "Agra, Uttar Pradesh"
     },
     {
@@ -135,7 +135,7 @@ const Projects = () => {
       category: "hospitality",
       image: "public/Projects/Hotal Amar.png",
       description: "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
-      client: "CPWD",
+      client: "Singh Hotels Pvt Ltd.",
       location: "Agra, Uttar Pradesh"
     },
     {
