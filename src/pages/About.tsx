@@ -124,32 +124,18 @@ const About = () => {
 
   const team = [
     {
-      name: "Rajesh Sharma",
-      role: "Founder & CEO",
-      experience: "20+ Years Experience",
+      name: "Anurag Bansal",
+      role: "Founder",
+      experience: "25+ Years Experience",
       image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400",
       description: "An HVAC industry veteran who built the company from a single service van to a city-wide leader."
     },
     {
-      name: "Priya Patel",
-      role: "Technical Director",
-      experience: "15+ Years Experience",
+      name: "Akash Bansal",
+      role: "Co-Founder",
+      experience: "25+ Years Experience",
       image: "https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=400",
       description: "Specialist in VRF design and energy-efficient climate architecture for commercial spaces."
-    },
-    {
-      name: "Amit Kumar",
-      role: "Operations Head",
-      experience: "12+ Years Experience",
-      image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400",
-      description: "Ensures every project is delivered on time, safety protocols are met, and quality is maintained."
-    },
-    {
-      name: "Sneha Reddy",
-      role: "Client Relations",
-      experience: "10+ Years Experience",
-      image: "https://images.pexels.com/photos/3756681/pexels-photo-3756681.jpeg?auto=compress&cs=tinysrgb&w=400",
-      description: "Dedicated to ensuring a seamless experience from the first consultation to post-sales support."
     }
   ];
 

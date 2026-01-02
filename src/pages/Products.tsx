@@ -1,5 +1,4 @@
-import { 
-  Download, 
+import {  
   ChevronRight,
   FileText, 
   Cpu, 
@@ -267,11 +266,7 @@ const Products = () => {
                             >
                 <button className="group bg-blue-600 hover:bg-blue-700 text-white px-6 md:px-8 py-3 md:py-4 font-semibold transition-all rounded-sm flex items-center justify-center sm:justify-start shadow-lg shadow-blue-900/50 text-sm md:text-base">
                   <FileText className="mr-2 w-5 h-5" />
-                  Get Price List
-                </button>
-                <button className="bg-white/5 backdrop-blur-sm border border-white/20 text-white hover:bg-white hover:text-slate-900 px-6 md:px-8 py-3 md:py-4 font-semibold transition-all rounded-sm flex items-center justify-center sm:justify-start text-sm md:text-base">
-                  <Download className="mr-2 w-5 h-5" />
-                  Download Catalog
+                  Get in Touch!
                 </button>
               </motion.div>
             </div>

@@ -72,6 +72,11 @@ const Projects = () => {
       name: "Residential",
       icon: <Home className="w-4 h-4" />,
     },
+    {
+      id: "retail",
+      name: "Retail",
+      icon: <Home className="w-4 h-4" />,
+    },
   ];
 
   const projects = [
@@ -157,7 +162,7 @@ const Projects = () => {
     },
     {
       id: 9,
-      title: "Gurudwara Guru Ka Taal Agra",
+      title: "Gurudwara",
       category: "commercial",
       image: "/Projects/Gurudwara-Guru-Ka-Taal-Agra.jpg",
       description:
@@ -168,7 +173,7 @@ const Projects = () => {
     {
       id: 10,
       title: "Haldiram Tajganj",
-      category: "commercial",
+      category: "retail",
       image: "/Projects/Haldiram-Tajganj.png",
       description:
         "Retrofitting heritage government buildings with modern, energy-efficient climate control systems.",
